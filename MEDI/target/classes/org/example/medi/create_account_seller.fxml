@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<VBox alignment="CENTER" prefHeight="524.0" prefWidth="476.0" spacing="10"
+      style="-fx-background-color: #d0edd7;" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.medi.CreateAccountSellerController">
+
+    <ImageView fitHeight="107.0" fitWidth="159.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@image/plant.png" />
+    </ImageView>
+    <TextField fx:id="usernameField" promptText="Username" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.0692007765173912" green="0.9342105388641357" blue="0.21336907148361206" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <TextField fx:id="phoneField" promptText="Phone Number" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.08251096308231354" green="0.9210526347160339" blue="0.03837719187140465" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <TextField fx:id="addressField" promptText="Address" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.046783626079559326" green="0.8421052694320679" blue="0.12631578743457794" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <TextField fx:id="shopNameField" promptText="Shop Name" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.049707602709531784" green="0.8947368264198303" blue="0.063791424036026" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <TextField fx:id="shopLocationField" promptText="Shop Location" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.1677722930908203" green="0.8026315569877625" blue="0.05573830381035805" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <TextField fx:id="emailField" promptText="Email" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN" radius="10.7375" width="23.95">
+                <color>
+                    <Color red="0.09502924233675003" green="0.7894737124443054" blue="0.05847953259944916" />
+                </color>
+            </DropShadow>
+        </effect></TextField>
+    <PasswordField fx:id="passwordField" promptText="Set Password" style="-fx-background-color: #dfd6ef;">
+        <effect>
+            <DropShadow blurType="GAUSSIAN">
+                <color>
+                    <Color red="0.02800000086426735" green="0.5600000023841858" blue="0.04573333263397217" />
+                </color>
+            </DropShadow>
+        </effect></PasswordField>
+    <TextField fx:id="roleField" text="seller" visible="false" />
+    <Button fx:id="doneButton" onAction="#handleDone" style="-fx-background-color: #a2dbaf;" text="Done">
+        <effect>
+            <DropShadow blurType="GAUSSIAN" height="137.45" radius="89.965" spread="0.18" width="224.41">
+                <color>
+                    <Color red="0.8999999761581421" green="0.8999999761581421" blue="0.04500000178813934" opacity="0.9573560953140259" />
+                </color>
+            </DropShadow>
+        </effect></Button>
+    <Button fx:id="backButton" onAction="#handleBack" style="-fx-background-color: #a2dbaf;" text="Back">
+        <effect>
+            <DropShadow blurType="GAUSSIAN" height="0.0" radius="51.9175" spread="0.12" width="209.67">
+                <color>
+                    <Color red="1.0" green="1.0" blue="0.009999999776482582" opacity="0.9189765453338623" />
+                </color>
+            </DropShadow>
+        </effect></Button>
+</VBox>
